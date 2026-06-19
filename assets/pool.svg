@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-label="Stylized pool table scene">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0d1420"/>
+      <stop offset="1" stop-color="#04060a"/>
+    </linearGradient>
+    <radialGradient id="green" cx="50%" cy="45%" r="60%">
+      <stop offset="0" stop-color="#57c36a" stop-opacity="0.24"/>
+      <stop offset="1" stop-color="#57c36a" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="900" fill="url(#bg)"/>
+  <circle cx="600" cy="340" r="320" fill="url(#green)"/>
+  <ellipse cx="600" cy="570" rx="330" ry="170" fill="#101722"/>
+  <g transform="translate(315 350)">
+    <rect x="0" y="0" width="570" height="300" rx="42" fill="#2f6a3d" stroke="#8f6437" stroke-width="24"/>
+    <rect x="26" y="26" width="518" height="248" rx="24" fill="#38914f" stroke="#1f5830" stroke-width="6"/>
+    <circle cx="88" cy="84" r="24" fill="#f7f7f7"/>
+    <circle cx="472" cy="76" r="24" fill="#f2b24d"/>
+    <circle cx="244" cy="152" r="20" fill="#cf4444"/>
+    <circle cx="336" cy="124" r="20" fill="#2458d8"/>
+    <circle cx="404" cy="182" r="20" fill="#f2b24d"/>
+    <circle cx="176" cy="188" r="20" fill="#ffffff"/>
+    <circle cx="286" cy="214" r="20" fill="#111827"/>
+    <line x1="-94" y1="20" x2="-20" y2="178" stroke="#8f6437" stroke-width="16" stroke-linecap="round"/>
+    <line x1="664" y1="28" x2="588" y2="178" stroke="#8f6437" stroke-width="16" stroke-linecap="round"/>
+  </g>
+  <text x="78" y="826" fill="#cbd8e8" font-family="Arial, sans-serif" font-size="18" letter-spacing="2.8">POOL TABLES / GAMES / LOCAL ENERGY</text>
+</svg>

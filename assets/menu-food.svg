@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-label="Stylized bar food platter">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#101826"/>
+      <stop offset="1" stop-color="#05070b"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="35%" r="70%">
+      <stop offset="0" stop-color="#ffd57c" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#f2b24d" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="900" fill="url(#bg)"/>
+  <circle cx="600" cy="300" r="350" fill="url(#glow)"/>
+  <ellipse cx="600" cy="548" rx="330" ry="160" fill="#0d1421" />
+  <ellipse cx="600" cy="560" rx="290" ry="118" fill="#172131" stroke="#31465f" stroke-width="4"/>
+  <rect x="385" y="392" width="430" height="190" rx="92" fill="#e8d7a8" opacity="0.14"/>
+  <g transform="translate(430 360)">
+    <rect x="0" y="120" width="360" height="90" rx="45" fill="#9b5e2d"/>
+    <rect x="12" y="132" width="336" height="66" rx="33" fill="#7f431d"/>
+    <path d="M20 106c28-36 88-56 160-56s132 20 160 56" fill="none" stroke="#d89a57" stroke-width="12" stroke-linecap="round"/>
+    <rect x="20" y="76" width="320" height="28" rx="14" fill="#f3c56a"/>
+    <circle cx="54" cy="98" r="12" fill="#f7da85"/>
+    <circle cx="98" cy="92" r="12" fill="#f7da85"/>
+    <circle cx="145" cy="88" r="12" fill="#f7da85"/>
+    <circle cx="192" cy="84" r="12" fill="#f7da85"/>
+    <circle cx="239" cy="88" r="12" fill="#f7da85"/>
+    <circle cx="286" cy="92" r="12" fill="#f7da85"/>
+    <circle cx="332" cy="98" r="12" fill="#f7da85"/>
+    <path d="M38 18h284v50H38z" rx="24" fill="#162233" stroke="#324760" stroke-width="3"/>
+  </g>
+  <g fill="#f7d27a">
+    <rect x="218" y="610" width="180" height="26" rx="13"/>
+    <rect x="240" y="640" width="180" height="26" rx="13"/>
+    <rect x="266" y="670" width="180" height="26" rx="13"/>
+    <rect x="804" y="610" width="180" height="26" rx="13"/>
+    <rect x="782" y="640" width="180" height="26" rx="13"/>
+    <rect x="756" y="670" width="180" height="26" rx="13"/>
+  </g>
+  <circle cx="560" cy="690" r="36" fill="#b7412c"/>
+  <circle cx="675" cy="675" r="20" fill="#d6af44"/>
+  <circle cx="730" cy="710" r="15" fill="#d6af44"/>
+  <circle cx="510" cy="675" r="14" fill="#d6af44"/>
+  <text x="78" y="826" fill="#cbd8e8" font-family="Arial, sans-serif" font-size="18" letter-spacing="2.8">MENU / WINGS / FRIES / COMFORT FOOD</text>
+</svg>

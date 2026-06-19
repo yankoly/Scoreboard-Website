@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-label="Stylized beer taps and drinks">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0d1522"/>
+      <stop offset="1" stop-color="#05070b"/>
+    </linearGradient>
+    <radialGradient id="blue" cx="50%" cy="28%" r="65%">
+      <stop offset="0" stop-color="#7cc0ff" stop-opacity="0.24"/>
+      <stop offset="1" stop-color="#7cc0ff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="900" fill="url(#bg)"/>
+  <circle cx="600" cy="270" r="320" fill="url(#blue)"/>
+  <rect x="260" y="210" width="680" height="430" rx="34" fill="#111a2a" stroke="#314760" stroke-width="3"/>
+  <rect x="300" y="250" width="640" height="48" rx="20" fill="#21314b"/>
+  <g transform="translate(330 320)">
+    <rect x="0" y="0" width="90" height="200" rx="22" fill="#1a273a" stroke="#3d5777" stroke-width="3"/>
+    <rect x="24" y="-58" width="42" height="90" rx="20" fill="#d7e3f4"/>
+    <rect x="18" y="58" width="54" height="110" rx="12" fill="#f2b24d"/>
+    <rect x="150" y="0" width="90" height="200" rx="22" fill="#1a273a" stroke="#3d5777" stroke-width="3"/>
+    <rect x="174" y="-58" width="42" height="90" rx="20" fill="#d7e3f4"/>
+    <rect x="168" y="58" width="54" height="110" rx="12" fill="#6db6ff"/>
+    <rect x="300" y="0" width="90" height="200" rx="22" fill="#1a273a" stroke="#3d5777" stroke-width="3"/>
+    <rect x="324" y="-58" width="42" height="90" rx="20" fill="#d7e3f4"/>
+    <rect x="318" y="58" width="54" height="110" rx="12" fill="#f2b24d"/>
+    <rect x="450" y="0" width="90" height="200" rx="22" fill="#1a273a" stroke="#3d5777" stroke-width="3"/>
+    <rect x="474" y="-58" width="42" height="90" rx="20" fill="#d7e3f4"/>
+    <rect x="468" y="58" width="54" height="110" rx="12" fill="#6db6ff"/>
+    <rect x="600" y="0" width="90" height="200" rx="22" fill="#1a273a" stroke="#3d5777" stroke-width="3"/>
+    <rect x="624" y="-58" width="42" height="90" rx="20" fill="#d7e3f4"/>
+    <rect x="618" y="58" width="54" height="110" rx="12" fill="#f2b24d"/>
+  </g>
+  <ellipse cx="600" cy="720" rx="180" ry="70" fill="#07111d"/>
+  <rect x="514" y="515" width="172" height="178" rx="48" fill="#e8f1ff" opacity="0.12"/>
+  <path d="M564 515v138c0 58 72 58 72 0V515" fill="#d9f0ff" opacity="0.15"/>
+  <path d="M528 561h144v34H528z" fill="#f2b24d" opacity="0.5"/>
+  <text x="78" y="826" fill="#cbd8e8" font-family="Arial, sans-serif" font-size="18" letter-spacing="2.8">DRAFTS / ROTATING TAP / FULL BAR</text>
+</svg>

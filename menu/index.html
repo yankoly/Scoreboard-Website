@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Menu | The Scoreboard</title>
+    <meta
+      name="description"
+      content="Browse starters, wings, sandwiches, salads, specials, and drinks at The Scoreboard in Imperial Beach."
+    />
+    <meta name="theme-color" content="#07111d" />
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body data-page="menu">
+    <div data-header></div>
+    <main>
+      <section class="page-hero">
+        <div class="site-shell">
+          <h1>Simple, familiar, and made for every meal of the day.</h1>
+          <p class="section-lead">
+            The Scoreboard menu runs from breakfast plates and mimosas to wings, burgers, dogs, sandwiches,
+            salads, and late-day comfort food.
+          </p>
+          <div class="page-actions">
+            <a class="button-accent" href="tel:+16194249909">Call to Order</a>
+            <a class="button" href="/events/">See Events</a>
+            <a class="button-ghost" href="/visit/">Get Directions</a>
+          </div>
+          <div class="center-note">Happy Hour Monday-Friday 2-6pm. Call ahead for current kitchen hours and availability.</div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="site-shell">
+          <div class="panel">
+            <div class="panel-header">
+              <h3>Menu board</h3>
+              <div class="tag">Prices pulled from the current menu list</div>
+            </div>
+            <p class="section-lead">Use the section headings to scan breakfast, pre-game plates, burgers, dogs, sandwiches, salads, faves, and sides.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="site-shell">
+          <div data-menu-sections></div>
+        </div>
+      </section>
+    </main>
+    <div data-footer></div>
+    <div data-mobile-cta></div>
+    <script type="module" src="/site.js"></script>
+    <script type="application/ld+json" data-jsonld>
+      {
+        "@context": "https://schema.org",
+        "@type": ["BarOrPub", "Restaurant"],
+        "name": "The Scoreboard",
+        "url": "https://scoreboardib.wixsite.com/the-scoreboard",
+        "telephone": "+1-619-424-9909",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "951 Palm Ave",
+          "addressLocality": "Imperial Beach",
+          "addressRegion": "CA",
+          "postalCode": "91932",
+          "addressCountry": "US"
+        }
+      }
+    </script>
+  </body>
+</html>

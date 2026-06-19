@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-label="Stylized comfort food special">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#121521"/>
+      <stop offset="1" stop-color="#05070b"/>
+    </linearGradient>
+    <radialGradient id="amber" cx="50%" cy="35%" r="70%">
+      <stop offset="0" stop-color="#f2b24d" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#f2b24d" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="900" fill="url(#bg)"/>
+  <circle cx="610" cy="305" r="360" fill="url(#amber)"/>
+  <ellipse cx="600" cy="555" rx="315" ry="145" fill="#101725"/>
+  <ellipse cx="600" cy="566" rx="270" ry="108" fill="#1a2330" stroke="#33485f" stroke-width="4"/>
+  <rect x="430" y="400" width="340" height="172" rx="36" fill="#361f16" stroke="#7d4b30" stroke-width="3"/>
+  <rect x="447" y="417" width="306" height="138" rx="28" fill="#541e14"/>
+  <path d="M470 458c34-38 80-58 130-58s96 20 130 58" fill="none" stroke="#ad6a3d" stroke-width="10" stroke-linecap="round"/>
+  <path d="M488 446h224" stroke="#f2c56c" stroke-width="18" stroke-linecap="round"/>
+  <circle cx="520" cy="500" r="20" fill="#f2b24d"/>
+  <circle cx="570" cy="515" r="20" fill="#f2b24d"/>
+  <circle cx="620" cy="505" r="20" fill="#f2b24d"/>
+  <circle cx="670" cy="520" r="20" fill="#f2b24d"/>
+  <circle cx="720" cy="500" r="20" fill="#f2b24d"/>
+  <rect x="280" y="678" width="640" height="38" rx="19" fill="#f7d07f" opacity="0.17"/>
+  <text x="78" y="826" fill="#cbd8e8" font-family="Arial, sans-serif" font-size="18" letter-spacing="2.8">SPECIALS / RIBS / CHILI / BBQ</text>
+</svg>

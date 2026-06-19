@@ -1,0 +1,5 @@
+.vercel
+.qa-*.png
+.tmp-*.png
+node_modules
+

@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Drinks | The Scoreboard</title>
+    <meta
+      name="description"
+      content="See what is pouring today at The Scoreboard, from familiar favorites to rotating taps."
+    />
+    <meta name="theme-color" content="#07111d" />
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body data-page="drinks">
+    <div data-header></div>
+    <main>
+      <section class="page-hero">
+        <div class="site-shell">
+          <h1>Cold pours. Simple favorites. Game-day pace.</h1>
+          <p class="section-lead">
+            A clean tap list with room for the rotating pour, the full bar, and the one question people always
+            ask: what is on today?
+          </p>
+          <div class="page-actions">
+            <a class="button-accent" href="/events/">See Events</a>
+            <a class="button" href="/menu/">View Menu</a>
+            <a class="button-ghost" href="tel:+16194249909">Call Now</a>
+          </div>
+          <div class="center-note">Ask what is rotating today.</div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="site-shell">
+          <div class="section-header">
+            <div>
+              <h2>What is pouring</h2>
+              <p class="section-lead">Keep the bar simple and easy to scan.</p>
+            </div>
+          </div>
+          <div class="section-grid three" data-drink-grid></div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="site-shell">
+          <div class="banner">
+            <h3>Full bar message</h3>
+            <p>
+              The tap list is one part of the night. The full bar keeps the room moving without a lot of noise.
+            </p>
+            <div class="button-row">
+              <a class="button-accent" href="/visit/">Plan a Visit</a>
+              <a class="button" href="tel:+16194249909">Call Ahead</a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <div data-footer></div>
+    <div data-mobile-cta></div>
+    <script type="module" src="/site.js"></script>
+    <script type="application/ld+json" data-jsonld>
+      {
+        "@context": "https://schema.org",
+        "@type": ["BarOrPub", "Restaurant"],
+        "name": "The Scoreboard",
+        "url": "https://scoreboardib.wixsite.com/the-scoreboard",
+        "telephone": "+1-619-424-9909",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "951 Palm Ave",
+          "addressLocality": "Imperial Beach",
+          "addressRegion": "CA",
+          "postalCode": "91932",
+          "addressCountry": "US"
+        }
+      }
+    </script>
+  </body>
+</html>

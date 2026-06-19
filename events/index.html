@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Events & Specials | The Scoreboard</title>
+    <meta
+      name="description"
+      content="See weekly specials, karaoke nights, bingo, beer pong, Sunday Funday, and game-day energy at The Scoreboard."
+    />
+    <meta name="theme-color" content="#07111d" />
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body data-page="events">
+    <div data-header></div>
+    <main>
+      <section class="page-hero">
+        <div class="site-shell">
+          <h1>Your next game night starts here.</h1>
+          <p class="section-lead">
+            Weekly specials, karaoke, bingo, beer pong, and Sunday Funday all live in one scoreboard-style
+            board that is easy to scan on any screen.
+          </p>
+          <div class="page-actions">
+            <a class="button-accent" href="/menu/">View Menu</a>
+            <a class="button" href="tel:+16194249909">Call Now</a>
+            <a class="button-ghost" href="/visit/">Get Directions</a>
+          </div>
+          <div class="center-note">Call to confirm tonight's schedule.</div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="site-shell">
+          <div class="section-header">
+            <div>
+              <h2>Weekly schedule board</h2>
+              <p class="section-lead">Keep the weekly rhythm obvious. No guessing, no hunting.</p>
+            </div>
+          </div>
+          <div class="day-board">
+            <div class="week" data-week-board></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="site-shell">
+          <div class="section-header">
+            <div>
+              <h2>Event highlights</h2>
+              <p class="section-lead">Energy that belongs in a sports bar, not a nightclub.</p>
+            </div>
+            <div class="section-actions">
+              <a class="button-accent" href="/visit/">Plan a Group Night</a>
+            </div>
+          </div>
+          <div class="section-grid two" data-event-highlights></div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="site-shell">
+          <div class="banner">
+            <h3>Game-day callout</h3>
+            <p>Cold beer, easy food, and a room that is built around the game.</p>
+            <div class="button-row">
+              <a class="button-accent" href="/drinks/">See What Is Pouring</a>
+              <a class="button" href="/menu/">View Menu</a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <div data-footer></div>
+    <div data-mobile-cta></div>
+    <script type="module" src="/site.js"></script>
+    <script type="application/ld+json" data-jsonld>
+      {
+        "@context": "https://schema.org",
+        "@type": ["BarOrPub", "Restaurant"],
+        "name": "The Scoreboard",
+        "url": "https://scoreboardib.wixsite.com/the-scoreboard",
+        "telephone": "+1-619-424-9909",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "951 Palm Ave",
+          "addressLocality": "Imperial Beach",
+          "addressRegion": "CA",
+          "postalCode": "91932",
+          "addressCountry": "US"
+        }
+      }
+    </script>
+  </body>
+</html>
