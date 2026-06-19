@@ -7,7 +7,6 @@ import {
   eventsPreview,
   taps,
   gallery,
-  proofCards,
   menuItems,
   drinkNotes
 } from "/data.js";
@@ -244,16 +243,6 @@ function renderGalleryCard(item, widthClass = "") {
   `;
 }
 
-function renderProofCard(item) {
-  return `
-    <article class="proof-card" data-reveal>
-      <div class="tag">Owner value</div>
-      <h3>${item.title}</h3>
-      <p>${item.text}</p>
-    </article>
-  `;
-}
-
 function renderTonightCard(container) {
   if (!container) return;
   const current = weeklySchedule.find((entry) => entry.day === currentDay) || weeklySchedule[0];
@@ -265,13 +254,13 @@ function renderTonightCard(container) {
       <p>${current.detail}</p>
       <ul>
         <li><span class="dot"></span><span>Call to confirm tonight's schedule.</span></li>
-        <li><span class="dot"></span><span>Game-day energy, comfort food, and cold drinks.</span></li>
+        <li><span class="dot"></span><span>Game-day energy and cold drinks.</span></li>
       </ul>
     </article>
     <article class="score-card" data-reveal>
       <div class="day">This week</div>
       <h3>Weekly scoreboard</h3>
-      <p>Plan ahead for the whole week. Every night has a simple reason to come through.</p>
+      <p>Plan ahead for the week. Every night has a reason to come through.</p>
       <ul>
         ${otherDays
           .slice(0, 4)
@@ -309,7 +298,6 @@ function renderHome() {
     gallery.slice(0, 4),
     (item, index) => renderGalleryCard(item, index === 0 ? "wide" : index === 3 ? "tall" : "")
   );
-  renderSectionList(document.querySelector("[data-proof]"), proofCards, renderProofCard);
 }
 
 function renderMenuPage() {
@@ -322,13 +310,13 @@ function renderMenuPage() {
       const items = menuItems.filter((item) => item.section === section);
       const sectionNote = {
         Breakfast: "Happy Hour Monday-Friday 2-6pm. Bottomless mimosas available at breakfast.",
-        "Pre-Game": "Best pulled up before the first whistle or first pitch.",
-        Burgers: "Classic bar burgers on brioche and grilled rye.",
+        "Pre-Game": "Best before the first whistle or pitch.",
+        Burgers: "Classic bar burgers.",
         "The Papas": "Fries, tots, chips, and loaded sides.",
-        "The Dog House": "Jumbo dogs with the kind of toppings regulars know by name.",
+        "The Dog House": "Jumbo dogs with regular-approved toppings.",
         "The SB Sands": "Sandwiches, melts, clubs, and wraps.",
-        "Big Salads": "Heavier salads that still eat like a meal.",
-        "Scoreboard Faves": "The bigger plates that anchor the menu.",
+        "Big Salads": "Big enough to eat like a meal.",
+        "Scoreboard Faves": "The bigger plates.",
         "Side Piece": "Sides, add-ons, and drink prices."
       }[section] || "Classic Scoreboard staples.";
 
