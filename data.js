@@ -5,7 +5,7 @@ export const business = {
   address: "951 Palm Ave, Imperial Beach, CA 91932",
   mapsHref:
     "https://www.google.com/maps/search/?api=1&query=951+Palm+Ave+Imperial+Beach+CA+91932",
-  website: "https://scoreboardib.wixsite.com/the-scoreboard",
+  website: "/",
   description:
     "The Scoreboard is Imperial Beach's go-to sports bar for cold drinks, comfort food, and game-day energy."
 };
